@@ -156,14 +156,14 @@ IF(ICALL.EQ.4) THEN                      ; for simulation
 
 
 $THETA
-(0, 0.414)       ; Lambda
-(0, 2.54)        ; Shape
-(10, 120,200)FIX ; Mtime
-(0, 1) FIX       ; Emax (HDIT101)
-(0, 4.67)        ; Ec50 (HDIT101)
-(0, 846)         ; MTT  (HDIT101)
-(-2, 0.103,2)    ; Herpes episodes
-(-2, -0.292,2)   ; Disease duration
+(0, 0.414)     ; Lambda
+(0, 2.54)      ; Shape
+(10, 120)FIX   ; Mtime
+(0, 1) FIX     ; Emax (HDIT101)
+(0, 4.67)      ; Ec50 (HDIT101)
+(0, 846)       ; MTT  (HDIT101)
+(-2, 0.103)    ; Herpes episodes
+(-2, -0.292)   ; Disease duration
 
 $OMEGA  
  0 FIX  ; dummy

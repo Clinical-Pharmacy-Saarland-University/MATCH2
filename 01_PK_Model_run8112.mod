@@ -37,23 +37,23 @@ Y= IPRED + EPS(1) + W*EPS(2)
 
 $THETA
 (0, 0.01)    ; 1 CL
-(0, 3.03)       ; 2 VC
-(0, 0.013)    ; 3 Q
-(0, 2.71)       ; 4 VP
-(0, 2.12,10)    ; 5 COV (HEIGHT)
-(0, 0.6.54,5)   ; 6 COV (WEIGHT)
-(0, 0.0178,5)  ; 7 COV (DISEASE DURATION)
-(0, 0.728,5)   ; 8 COV (SEX)
-(0, 1.13,5)     ; 9 COV (STUDY)
+(0, 3.03)    ; 2 VC
+(0, 0.013)   ; 3 Q
+(0, 2.71)    ; 4 VP
+(0, 2.12)    ; 5 COV (HEIGHT)
+(0, 0.654)   ; 6 COV (WEIGHT)
+(0, 0.0178)  ; 7 COV (DISEASE DURATION)
+(0, 0.728)   ; 8 COV (SEX)
+(0, 1.13)    ; 9 COV (STUDY)
 
 $OMEGA  
- 0.0366 ; IIV CL
- 0.0126 ; IIV V
- 0 FIX  ; IIV VP
+ 0.0366   ; IIV CL
+ 0.0126   ; IIV V
+ 0 FIX    ; IIV VP
 
 $SIGMA
- 1.94 ; Add RE
- 0.00909 ; Prop RE
+ 1.92     ; Add RE
+ 0.00905  ; Prop RE
 
 $EST METHOD=1 INTER MAXEVAl=9999 NOABORT PRINT=1 SIG=3 POSTHOC
 $COV
